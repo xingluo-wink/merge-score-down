@@ -1,0 +1,189 @@
+{
+  "project": "什么叫越合成分数越低了",
+  "retrieved_at": "2026-10-10",
+  "source_repository": "https://github.com/Magicdover/China-Universities-2026",
+  "upstream_credits": [
+    "https://www.urongda.com/",
+    "https://github.com/soulteary/china-university-icon"
+  ],
+  "rights_note": "校徽及其相关标识权利归各高校所有。汇编仓库采用 MIT 许可，素材权利不因汇编许可而转移。本游戏为非官方创意原型，与各高校无隶属或代言关系。",
+  "source_license_file": "assets/badges/SOURCE-LICENSE.txt",
+  "format": "11 original SVG files; external scripts and HTTP hrefs absent; no hotlink dependencies",
+  "assets": [
+    {
+      "code": "thu",
+      "name": "清华大学",
+      "file": "assets/badges/thu.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%20THU.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 422833,
+      "sha256": "02406c7e7efb7bf00037b259bfff1915a0e450137e44045a643a9e1de08389db",
+      "official_reference": "https://www.tsinghua.edu.cn/__local/C/B6/1C/5682B1124834BFE4B7BB43744CF_C7C409E3_C2FAA.pdf",
+      "viewBox": "0 0 283.993 284.081",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved."
+    },
+    {
+      "code": "pku",
+      "name": "北京大学",
+      "file": "assets/badges/pku.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%20PKU.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 35551,
+      "sha256": "3f809947c6431627c92f0f83fd60751960bda2c941855fb639ce25b0b79984a8",
+      "official_reference": "https://vim.pku.edu.cn/xzzq/",
+      "viewBox": "0 0 88 88",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved."
+    },
+    {
+      "code": "fdu",
+      "name": "复旦大学",
+      "file": "assets/badges/fdu.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%20FDU.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 18113,
+      "sha256": "16212f4d8ed8867355eda5899588966531273d3f83654cb922ed49b351185577",
+      "official_reference": "https://www.fudan.edu.cn/fdbsxz/list.htm",
+      "viewBox": "0 0 539 538",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved."
+    },
+    {
+      "code": "sjtu",
+      "name": "上海交通大学",
+      "file": "assets/badges/sjtu.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%20SJTU.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 61416,
+      "sha256": "cd474795af5c2cea5ec498eeee2fba708aca8b6cd7089cc51963be0000f9d322",
+      "official_reference": "https://plan.sjtu.edu.cn/info/1025/1212.htm",
+      "viewBox": "0 0 88 88",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved."
+    },
+    {
+      "code": "zju",
+      "name": "浙江大学",
+      "file": "assets/badges/zju.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%20ZJU.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 22312,
+      "sha256": "f81efa81c6b4e686d2e7a1f8353cd4cd549ac1c38474344735e36f384da20f76",
+      "official_reference": "https://www.zju.edu.cn/english/2023/0323/c74903a2732011/page.htm",
+      "viewBox": "0 0 88 88",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved."
+    },
+    {
+      "code": "nju",
+      "name": "南京大学",
+      "file": "assets/badges/nju.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%20NJU.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 52262,
+      "sha256": "f6b334e96edef0b37b7b9c7399a2eb34760521028d5ad8a63c92cdebd023e669",
+      "official_reference": "https://www.nju.edu.cn/info/3191/199281.htm",
+      "viewBox": "0 0 72 88",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved.",
+      "notes": "Shield-shaped emblem has transparent side margins; fit inside the round game ball without stretching."
+    },
+    {
+      "code": "ustc",
+      "name": "中国科学技术大学",
+      "file": "assets/badges/ustc.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6%20USTC.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 28968,
+      "sha256": "2dec0326079ef6258386298d8f0f6aa59d909aab4ac5c28de7325bbf63d2a5f4",
+      "official_reference": "https://sz.ustc.edu.cn/wdxz_show/13.html",
+      "viewBox": "0 0 2117 2117",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved."
+    },
+    {
+      "code": "whu",
+      "name": "武汉大学",
+      "file": "assets/badges/whu.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6%20WHU.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 31757,
+      "sha256": "19b2569212f79c70735f925b2bc46ecd0c1d19576045fb70c69c875b93af829d",
+      "official_reference": "https://www.whu.edu.cn/xxgk/wdbs.htm",
+      "viewBox": "0 0 430.6294 430.6294",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved."
+    },
+    {
+      "code": "sysu",
+      "name": "中山大学",
+      "file": "assets/badges/sysu.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%20SYSU.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 46423,
+      "sha256": "bcd8ba8c304bfb8a5e2274624d83420990796d910e6ea94e3f816e57f549d000",
+      "official_reference": "https://www.sysu.edu.cn/xxg/zdjj1.htm",
+      "viewBox": "0 0 301.4257 301.4258",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved."
+    },
+    {
+      "code": "scut",
+      "name": "华南理工大学",
+      "file": "assets/badges/scut.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%20SCUT.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 60165,
+      "sha256": "5e69cc87e983b80c99e0c9061a50ae9afc74706daf04ff044f04015c48389156",
+      "official_reference": "https://www.scut.edu.cn/new/9017/list.htm",
+      "viewBox": "0 0 266.66666 266.66666",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved.",
+      "notes": "1918 version; visually compared against official downloadable PNG."
+    },
+    {
+      "code": "szu",
+      "name": "深圳大学",
+      "file": "assets/badges/szu.svg",
+      "source_url": "https://raw.githubusercontent.com/Magicdover/China-Universities-2026/main/assets/logos-new/%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6%20SZU.svg",
+      "source_page": "https://github.com/Magicdover/China-Universities-2026",
+      "bytes": 46271,
+      "sha256": "0660f8fea9349e42ec54981e5198a18e25774a720b5538b9a20e78fc8042f91f",
+      "official_reference": "https://www.szu.edu.cn/xxgk/sdbs.htm",
+      "viewBox": "0 0 88 88",
+      "verification": "XML parsed; rendered through sharp/librsvg; contact sheet visually inspected on 2026-10-10. Identity cross-checked against official description. Download is the public vector collection copy, not a direct official vector download.",
+      "modifications": "None; upstream SVG bytes preserved.",
+      "notes": "1983 version, litchi-red emblem; independently inspected at 600 px and compared with the official mark explanation GIF."
+    }
+  ],
+  "fonts": [
+    {
+      "family": "ZCOOL KuaiLe",
+      "css_family": "GameTitle",
+      "weight": 400,
+      "format": "truetype",
+      "file": "assets/fonts/zcool-kuaile-v07.ttf",
+      "characters": "不要合成深圳大学你赢了电脑暂停再来局怎么玩校徽顺序别，是捣乱的什叫越分数低",
+      "source_css_url": "https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&text=%E4%B8%8D%E8%A6%81%E5%90%88%E6%88%90%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6%E4%BD%A0%E8%B5%A2%E4%BA%86%E7%94%B5%E8%84%91%E6%9A%82%E5%81%9C%E5%86%8D%E6%9D%A5%E5%B1%80%E6%80%8E%E4%B9%88%E7%8E%A9%E6%A0%A1%E5%BE%BD%E9%A1%BA%E5%BA%8F%E5%88%AB%EF%BC%8C%E6%98%AF%E6%8D%A3%E4%B9%B1%E7%9A%84%E4%BB%80%E5%8F%AB%E8%B6%8A%E5%88%86%E6%95%B0%E4%BD%8E",
+      "source_project": "https://github.com/google/fonts/tree/main/ofl/zcoolkuaile",
+      "license": "SIL Open Font License 1.1",
+      "license_file": "assets/fonts/ZCOOL-OFL.txt",
+      "retrieved_at": "2026-10-11",
+      "usage": "Playful title and dialog headings; other text uses system sans-serif",
+      "bytes": 7408,
+      "sha256": "7aca0b968f1b478c79b8b2e29bd275f5f1edcb6ddaf65a6326f2d01a63e6e487",
+      "source_font_url": "https://fonts.gstatic.com/l/font?kit=tssqApdaRQokwFjFJjvM6h2WppSYTcHXP26g26HeAKgsQOIp-JitDJs5MRUe6IWSNyVAc4aG4djbCqAqElfLpHBF9LowHT_gglrmSxWSji1jo6Ysdux3Fj-CCfFwvQCi1W8G84t2hXutuwttQu83Gxaai_Pj1nTeV56T9Yh8zKAWa-ak&skey=4a28408937fb030&v=v22"
+    }
+  ],
+  "illustrations": [
+    {
+      "name": "思考表情清晰版",
+      "file": "assets/thinking-restored.png",
+      "source": "User-supplied image, restored with built-in image_gen",
+      "details": "assets/thinking-source.json",
+      "bytes": 1355532,
+      "sha256": "33dd87b78bf698b05cdef0953db207de2956205cc3677bcce9d4bd59532ca8da"
+    }
+  ]
+}

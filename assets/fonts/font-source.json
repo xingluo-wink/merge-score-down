@@ -1,0 +1,17 @@
+{
+  "family": "ZCOOL KuaiLe",
+  "css_family": "GameTitle",
+  "weight": 400,
+  "format": "truetype",
+  "file": "assets/fonts/zcool-kuaile-v07.ttf",
+  "characters": "不要合成深圳大学你赢了电脑暂停再来局怎么玩校徽顺序别，是捣乱的什叫越分数低",
+  "source_css_url": "https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&text=%E4%B8%8D%E8%A6%81%E5%90%88%E6%88%90%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6%E4%BD%A0%E8%B5%A2%E4%BA%86%E7%94%B5%E8%84%91%E6%9A%82%E5%81%9C%E5%86%8D%E6%9D%A5%E5%B1%80%E6%80%8E%E4%B9%88%E7%8E%A9%E6%A0%A1%E5%BE%BD%E9%A1%BA%E5%BA%8F%E5%88%AB%EF%BC%8C%E6%98%AF%E6%8D%A3%E4%B9%B1%E7%9A%84%E4%BB%80%E5%8F%AB%E8%B6%8A%E5%88%86%E6%95%B0%E4%BD%8E",
+  "source_project": "https://github.com/google/fonts/tree/main/ofl/zcoolkuaile",
+  "license": "SIL Open Font License 1.1",
+  "license_file": "assets/fonts/ZCOOL-OFL.txt",
+  "retrieved_at": "2026-10-11",
+  "usage": "Playful title and dialog headings; other text uses system sans-serif",
+  "bytes": 7408,
+  "sha256": "7aca0b968f1b478c79b8b2e29bd275f5f1edcb6ddaf65a6326f2d01a63e6e487",
+  "source_font_url": "https://fonts.gstatic.com/l/font?kit=tssqApdaRQokwFjFJjvM6h2WppSYTcHXP26g26HeAKgsQOIp-JitDJs5MRUe6IWSNyVAc4aG4djbCqAqElfLpHBF9LowHT_gglrmSxWSji1jo6Ysdux3Fj-CCfFwvQCi1W8G84t2hXutuwttQu83Gxaai_Pj1nTeV56T9Yh8zKAWa-ak&skey=4a28408937fb030&v=v22"
+}

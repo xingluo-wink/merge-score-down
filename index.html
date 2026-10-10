@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#e8e5ff"><meta name="description" content="什么叫越合成分数越低了：你和电脑轮流投球，堆过红线就赢。">
+<title>什么叫越合成分数越低了</title><link rel="stylesheet" href="./style.css">
+<link rel="preload" href="./assets/fonts/zcool-kuaile-v07.ttf" as="font" type="font/ttf" crossorigin>
+</head>
+<body>
+<main class="game-shell">
+<header class="game-header">
+<h1><span>什么叫越合成</span><strong>分数越低了<svg viewBox="0 0 24 32" aria-hidden="true"><path d="m10 1-5 19h7L10 31l13-20h-9l6-10z"/></svg></strong></h1>
+</header>
+<div class="toolbar"><div class="score" aria-label="本局剩余分数"><span>剩余分数</span><div class="score-value"><b id="merge-score">35,000</b><span id="merge-cost">（-0）</span></div></div>
+<div class="score-note"><span>你最好看看这个</span><span>分数是怎么变的</span><svg viewBox="0 0 36 24" aria-hidden="true"><path d="M2 5Q14 23 32 13m-9-5 9 5-8 8"/></svg></div>
+<nav aria-label="游戏操作">
+<button id="sound" class="icon-button" aria-label="开启音效" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path id="sound-lines" d="m16 9 5 6m0-6-5 6"/></svg></button>
+<button id="rules-button" class="icon-button" aria-label="怎么玩"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-1.5 1-1.5 1-1.5 3m0 3v.1"/></svg></button>
+<button id="restart" class="icon-button" aria-label="重新开局"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8a8 8 0 1 1-1 7M5 3v5h5"/></svg></button>
+</nav></div>
+<section class="play-area" aria-label="游戏场地">
+<div class="turn-strip"><div class="turn-state"><span id="turn-dot" class="turn-dot"></span><strong id="turn-label" role="status" aria-live="polite">轮到你了</strong></div><span id="turn-number">第 1 手</span></div>
+<div class="arena" id="arena">
+<canvas id="game" width="840" height="1240" tabindex="0" aria-label="下落场地。左右方向键调整位置，空格或回车投球。"></canvas>
+<div id="empty-hint" class="empty-hint"><svg viewBox="0 0 64 40" aria-hidden="true"><path d="M6 16h52M6 16l8-8M6 16l8 8m44-8-8-8m8 8-8 8M32 25v12m-6-6 6 6 6-6"/></svg><span>拖动，松手！</span></div>
+<div id="result" class="result-panel" hidden><span id="result-stamp">你赢了</span><h2 id="result-title">你赢了！</h2><p id="result-copy"></p><div class="result-actions"><button id="again" class="primary-button">再来一局</button><button id="same-seed" class="quiet-button">相同球序再试</button></div></div>
+<div id="pause-panel" class="pause-panel" hidden><strong>暂停</strong><button id="resume" class="primary-button">继续</button></div>
+</div>
+<div class="below-board"><div id="next-previews" class="arena-queue" aria-label="双方下一颗球"><div class="player-preview"><span>你<small>下一颗</small></span><img id="human-next" src="./assets/badges/scut.svg" alt="你的下一颗"></div><div class="player-preview"><span>电脑<small>下一颗</small></span><img id="bot-next" src="./assets/badges/sysu.svg" alt="电脑的下一颗"></div></div><button id="pause" class="icon-button" aria-label="暂停游戏"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14m8-14v14"/></svg></button></div>
+</section>
+<footer class="game-footer"><span id="move-hint">堆过红线就赢</span><div class="run-stats"><span>投球 <b id="human-moves">0</b></span><span>最佳 <b id="best-record">—</b></span></div></footer>
+<aside class="merge-sidebar" aria-labelledby="merge-title"><img id="bot-thinking" class="thinking-portrait" src="./assets/thinking-restored.png" width="1024" height="1024" alt="电脑思考中" decoding="async" hidden><h2 id="merge-title">合成顺序</h2><ol id="school-chain" aria-label="高校合成顺序"></ol></aside>
+<p class="author-note"><small>肯定有人会问：深大是什么学校，其实只是作者的学校，依旧今年是最有希望的一年</small></p>
+<section class="friend-links" aria-labelledby="friend-links-title"><h2 id="friend-links-title">灵感来源兼友情链接：</h2><a href="https://yhsome.github.io/BigNaiWa/" target="_blank" rel="noopener noreferrer">https://yhsome.github.io/BigNaiWa/</a><a href="https://plianasp-maker.github.io/scut-game/" target="_blank" rel="noopener noreferrer">https://plianasp-maker.github.io/scut-game/</a></section>
+</main>
+<dialog id="rules-dialog"><div class="dialog-head"><h2>怎么玩</h2><button class="icon-button" data-close="rules-dialog" aria-label="关闭玩法说明"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+<ul class="rules"><li>你和电脑轮流投一球，同校徽碰到就合成。</li><li>停稳后堆过红线，你赢；合成深大，电脑赢。</li><li>开局 35,000（-0），能保多少保多少。每次合成扣 2、4、8……1024 分。</li><li>拖动后松手投球。键盘 ← → 调位置，空格投球。</li></ul>
+<div class="small-links"><button id="export-replay" class="text-button">保存回放</button><a href="./asset-sources.json" target="_blank" rel="noopener">素材来源</a></div>
+<button class="primary-button full" data-close="rules-dialog">开始</button></dialog>
+<dialog id="restart-dialog"><div class="dialog-head"><h2>重新开局？</h2><button class="icon-button" data-close="restart-dialog" aria-label="取消重新开局"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div class="dialog-actions"><button class="quiet-button" data-close="restart-dialog">继续这局</button><button id="confirm-restart" class="primary-button">重开</button></div></dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+<script type="module" src="./app.js"></script>
+</body></html>
